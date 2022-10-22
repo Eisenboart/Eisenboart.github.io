@@ -55,7 +55,7 @@ justify-content: center;
 position: relative;
 width: 100%;
 height: 2px;
-background-color: #ffffff;
+background-color: #C8C6B1;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -142,7 +142,7 @@ transition: opacity 0.4s ease;
 .menu-wrap .menu > div > div > ul >li
 {
 list-style: none;
-color: #ffffff;
+color: #C8C6B1;
 font-size: 1.2rem;
 padding: 1rem; 
 }
@@ -241,37 +241,3 @@ justify-content: center;
   font-size: 13px;
  }
 }
-*{
-    margin:0%;
-    padding:0%;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start ;
-}
-
-.container   {
-        scroll-snap-type: y mandatory;
-        overflow-y: scroll;
-        height: 100vh;
-            }
-
-.uno    {
-    color: white;
-    background-color: black;
-        }
-.dos    {
-    background-color: white;
-        }
-.tres   {
-    color: white;
-    background-color: red;    
-        }
-
-
-       
