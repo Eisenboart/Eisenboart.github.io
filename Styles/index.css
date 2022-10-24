@@ -1,0 +1,89 @@
+@font-face {
+    src: url(../fonts/Cathedral.ttf);
+    font-family: Cat;
+  }
+
+@font-face {
+font-family: Grave;
+src: url(../fonts/Gravedigger.ttf);
+}
+
+:root
+{
+    --primary-color: rgba(86.3, 7.8, 23.5, 0.45);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1.titulo1
+{
+    font-family: Grave, Times, serif;
+    color: white;   
+    line-height: 2;
+    font-size: 2.7em;
+}
+
+h1.titulo2
+{
+    font-family: 'Grave';
+    color: white;
+    line-height: 2;
+    font-size: 1.5em;
+}
+.container
+{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+.showcase
+{
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 100vh;
+    position: static;
+}
+.showcase::before
+{
+    content:'';
+    background: url('../Img/bloodhunt-1.png') no-repeat center 
+    center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.showcase-inner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+
+.btn
+{
+    display: inline-block;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: opacity 1s ease-in;
+}
+.btn:hover
+{
+    opacity: 0.7;
+}
