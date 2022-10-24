@@ -1,0 +1,80 @@
+@font-face {
+    src: url(fonts/Cathedral.ttf);
+    font-family: Cat;
+  }
+
+@font-face {
+font-family: Grave;
+src: url(fonts/Gravedigger.ttf);
+}
+
+:root
+{
+ --overlay-color: rgba(24, 39, 51, 0.85);
+ --menu-speed: 0.75s;
+}
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body 
+{
+font-family: Arial;
+margin: 0;
+line-height: 1.4;
+}
+.header 
+{
+padding: 60px;
+text-align: center;
+background: #642414;
+}
+    img {max-width:100%;
+    }
+.navbar
+{
+display: flex;
+background-color:#6D5658;
+}
+.navbar a
+{
+ color:#C8C6B1;
+ padding: 14px 20px;
+ text-decoration: none;
+ text-align: center;
+}
+.navbar a:hover
+{
+background-color: #EABF95;
+color:#4B3F29;
+}
+.navlink
+{
+display: flex;
+justify-content: center;
+}
+.row 
+{
+ display: flex;
+ flex-wrap: wrap;
+}
+.side 
+{
+ flex: 15%;
+ background-color:#6D5658;
+ padding: 10px;
+}
+.main
+{
+ flex: 85%;
+ background-color: #C8C6B1;
+ padding: 20px;
+}
+.footer
+{
+ background-color: #848884;
+ text-align: center;
+ padding:20px;
+}
+
