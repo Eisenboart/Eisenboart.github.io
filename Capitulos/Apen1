@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../Styles/mediaConfig.css">
+    <link rel="stylesheet" href="../Styles/Config.css">
+    <link rel="stylesheet" href="../Styles/Burger.css">
+    <link rel="stylesheet" href="../Styles/Container.css">
+    <link rel="stylesheet" href="../Styles/ScrollToTop.css">
+
+    <script src="https://kit.fontawesome.com/1027248462.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+           <div>
+               <div>
+                   <ul>
+                    <!-- El link para que funcione en la pagina Github Page tiene que respetar este formato:-->
+                    <!-- Si necesitamos cambiar a una carpeta hija usamos: "CarpetaObjetivo\CapN.html" -->
+                    <!-- Si no necesitamos cambiar de carpeta: "CapN.html"-->
+                    <!-- Si necesitamos cambiar a una carpeta anterior: "../CapN.html"-->
+                    <li>Indice:</li>                                
+                    <li><a href="Cap0.html">Introduccion: Rol en vivo</a></li>
+                    <li><a href="Cap1.html">Capitulo I: Ambientacion</a></li>
+                    <li><a href="Cap2.html">Capitulo II: Mitologia</a></li>
+                    <li><a href="Cap3.html">Capitulo III: Las Facciones</a></li>
+                    <li><a href="Cap4.html">Capitulo IV: Los Clanes</a></li>
+                    <li><a href="Cap5.html">Capitulo V: Cracion de Personaje</a></li>
+                    <li><a href="Cap6.html">Capitulo VI: Disciplinas</a></li>
+                    <li><a href="Cap7.html">Capitulo VII: Trasfondos</a></li>
+                    <li><a href="Cap8.html">Capitulo VIII: Reglas</a></li>
+                    <li><a href="Cap9.html">Capitulo IX: Sistemas & Drama</a></li>
+                    <li><a href="Ape1.html">Apendice: Sendas de Iluminacion</a></li>
+                    <li><a href="Ape2.html">Apendice: Meritos & Defectos</a></li>
+                   </ul>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="header">
+        <img src="logo.png" alt="LOGO">
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+                <!-- El link para que funcione en la pagina Github Page tiene que respetar este formato:-->
+                <!-- Si necesitamos cambiar a una carpeta hija usamos: "CarpetaObjetivo\CapN.html" -->
+                <!-- Si no necesitamos cambiar de carpeta: "CapN.html"-->
+                <!-- Si necesitamos cambiar a una carpeta anterior: "../CapN.html"-->
+            <a href="../index.html">Home Page</a>
+            <a href>Que es el juego</a>
+            <a href>Contacto</a>
+            <a href>Noticias y novedades</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="main">
+            <button id="btnScrollToTop">
+                <i class="fa-regular fa-circle-up fa-4x"></i>
+            </button>
+            <div class="row">
+                <div class="main">
+                    <button id="btnScrollToTop">
+                        <i class="fa-regular fa-circle-up fa-4x"></i>
+                    </button>
+                    <h2 class="title flex-title"><span class="title-main">Sendas de la Iluminacion:<br></span></h2>
+                        <article class="title flex-title">   
+                                <p><span class="title-note">Las sendas de Iluminación son los
+                                    códigos éticos y morales a los que los
+                                    vampiros se aferran para no perderse a la
+                                    Bestia, convirtiéndose en poco más que
+                                    monstruos sólo interesados en saciar su
+                                    Sed eterna.
+                                    Ya que es casi imposible juzjarse
+                                    a uno mismo y las motivaciones de las
+                                    propias acciones, como también el
+                                    evaluar si uno es “bueno” o “malo,” el
+                                    nivel de Senda de un personaje dado no
+                                    estará en sus manos.
+                                    A nivel Sistema, el DJ será quien
+                                    decidirá, basado en las acciones del
+                                    personaje, cuándo la senda de éste sube o
+                                    baja. Si un personaje no desea que su
+                                    Senda descienda deberá gastar tantos XP
+                                    como su nivel actual en Senda y
+                                    esforzarse por seguir los lineamientos de
+                                    ésta esa noche (o la siguiente partida si el
+                                    descenso ocurrió al final de la partida).
+                                    De no lograrlo, la Senda descenderá y los
+                                    XP se habrán gastado en vano.
+                                    Por otro lado, cuando un vampiro
+                                    sube su senda ganará 1 XP adicional en
+                                    esa partida. Si la Senda baja no se
+                                    ganarán XP adicionales, como no se
+                                    ganarán tampoco si la senda se mantiene
+                                    al mismo nivel y ésta es inferior a 7. Sin
+                                    embargo, Cuando la Senda de un
+                                    Personaje esté por encima de 6, el
+                                    personaje ganará un Punto de experiencia
+                                    por partida en que la senda mantenga su
+                                    nivel además de ganar el punto adicional
+                                    cada vez que la senda suba.</span><br></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Humanidad (la sectas por defecto)<br></span></h3>
+                        <article class="title flex-title">
+                            <p><span class="title-note">Por desgracia, la mera naturaleza
+                                de la existencia vampírica es anatema
+                                para la Humanidad. A medida que pasan
+                                los siglos la Bestia se va haciendo con el
+                                control y el vampiro se preocupa cada vez
+                                menos por el bienestar del “ganado”
+                                mortal (después de todo, antes o después
+                                todos desaparecerán). Es normal que los
+                                personajes pierdan Humanidad en el
+                                transcurso del juego.<br></span></p>   
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La Senda del acuerdo honorable<br></span></h3> 
+                     <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>   
+                     <article class="title flex-title">
+                            <p><span class="title-note">Estos Cainitas no entran en cuestiones
+                                filosóficas sobre la existencia y no se sumergen
+                                en la indulgencia de su lado monstruoso: Lo
+                                que hacen es concentrarse en un sólo principio:
+                                el honor. El orden, la justicia y el deber son sus
+                                palabras clave, y aunque siguen siendo
+                                monstruosos, se adhieren a un código
+                                comprensible en su rigidez. Concentrándose en
+                                reglas firmes y límites personales, los
+                                Caballeros mantienen a raya la furia de la
+                                Bestia. Aceptar el deber y cumplir con las
+                                obligaciones les da un objetivo que cumplir.
+                                Atados por sus códigos de honor, estos
+                                vampiros defienden causas con la mayor
+                                devoción, aun a costa de sus no vidas.
+                                Muchas de las creencias de los seguidores de la
+                                secta reflejan los códigos feudales de la
+                                caballería o el bushido samurai. Los Caballeros
+                                aceptarán gustosos la Muerte Definitiva antes
+                                que mostrar cobardía o traicionar a sus aliados.
+                                Del mismo modo, los soldados de la Senda
+                                defenderán la política de sus organizaciones con
+                                un fanatismo radical. Enfrentado a un enemigo
+                                imbatible, un Caballero solitario es un guerrero
+                                fatalista y mortal. Un grupo de ellos es un
+                                ejército que no teme a nada.<br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La senda de Cain<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2> 
+                        <article class="title flex-title">
+                            <p><span class="title-note">Los Nodistas buscan conocimiento en
+                                la historia, investigando las experiencias de
+                                Caín para poder aprender de su ejemplo. Para
+                                ellos la vida del primer vampiro revela el
+                                misterio de su maldición; comprendiendo la
+                                forma no muerta, trascienden sus debilidades
+                                mortales. Valoran cualquier conocimiento sobre
+                                la condición vampírica, pero el núcleo de su
+                                saber lo forman los escritos e historias de Caín.
+                                Como fue marcado y expulsado de la sociedad
+                                mortal, los Nodistas creen que ejemplifica a la
+                                perfección las diferencias entre los vampiros y
+                                los humanos. Por lo tanto, los seguidores de
+                                esta Senda se despojan de su humanidad como
+                                inadecuada e inútil, emulando el exilio del
+                                Padre Oscuro para buscar nuevas reglas que
+                                gobiernen sus ansias depredadoras.
+                                <br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La senda de la Catarsis<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2> 
+                        <article class="title flex-title">
+                            <p><span class="title-note">
+                                Según los vampiros que siguen esta
+                                Senda, los no muertos son servidores del
+                                creador malvado que han recibido la existencia
+                                eterna para tentar a los demás con los encantos
+                                del mundo material. Los seguido res creen
+                                cumplir un destino como criaturas atadas al
+                                mundo por su inmortalidad vampírica. Como a
+                                los vampiros les están vedados los reinos
+                                espirituales de los muertos, los Albigenses
+                                razonan que deben servir a los vicios del mundo
+                                físico. Por tanto, tratan de diseminar la maldad
+                                y la corrupción, viendo la iniquidad de su
+                                estado natural.<br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La senda del Corazon Salvaje<br></span></h3> 
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>    
+                    <article class="title flex-title">
+                            <p><span class="title-note">Aunque las Bestias no se deleitan con
+                                su violencia, tampoco la evitan. Aprendiendo
+                                a aceptar el papel del cazador y reconociendo
+                                así su lugar como no muerto, el vampiro se
+                                acerca a los animales: feroces, depredadores,
+                                pero situados en su justo lugar. Un seguidor
+                                de esta Senda cree que la Bestia es una parte
+                                natural de los vampiros que es necesario
+                                saciar. Sin embargo, el Cainita es inteligente,
+                                y un cazador astuto es mucho más eficaz. Por
+                                tanto, es importante alcanzar un equilibrio
+                                entre la Bestia y el Hombre; la astucia feral y
+                                los instintos salvajes del vampiro son
+                                excelentes armas de supervivencia, templadas
+                                por el razonamiento.
+                                <br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La Senda de los Huesos<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                        <article class="title flex-title">
+                            <p><span class="title-note">Muchos vampiros creen que la Senda
+                                de los Huesos es una filosofía degenerada que
+                                fomenta la práctica de todo tipo de asesinatos
+                                y atrocidades, pero los que la siguen y los que
+                                la conocen saben que consiste en la búsqueda
+                                del significado de la vida y de la no vida.
+                                Tratan de comprender la naturaleza y el
+                                sentido de la muerte, descubriendo así el
+                                papel que todos tenemos en el universo. La
+                                mortalidad es inevitable, excepto para los
+                                vampiros, que de algún modo lograron burlar
+                                su ciclo. Sin embargo, la naturaleza
+                                vampírica suele quedar fuera de las avenidas
+                                que esta Senda explora. Se trata de un código
+                                para eruditos, ya que sus seguidores deben
+                                renunciar a todo para aumentar su
+                                comprensión de los misterios de la
+                                mortalidad. Estos vampiros no son
+                                necesariamente crueles, pero valoran la
+                                comprensión mucho más que la vida humana.<br></span></p>
+                                <h3 class="title flex-title"><span class="title-note"><br>La Senda de Lilith<br></span></h3>
+                                <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                                <article class="title flex-title">
+                                    <p><span class="title-note">Considerados heréticos por casi todos
+                                        los Cainitas del Sabbat, los fragmentos de las
+                                        enseñanzas de Lilith (en ocasiones
+                                        denominados erróneamente Ciclo de Lilith)
+                                        muestran una elaborada historia y un mito
+                                        alternativo sobre la propia Creación.
+                                        Expulsada del primer jardín por los crímenes
+                                        de elevarse con los Frutos de la Vida y el
+                                        Conocimiento, y por buscar ser igual al
+                                        hombre y a Dios, Lilith sufrió tribulación y el
+                                        dolor hasta lograr la iluminación.
+                                        Los Bahari; con seguidores entre los
+                                        vampiros, humanos místicos y otros
+                                        moradores del mundo oculto; practican las
+                                        antiguas costumbres heredadas de Lilith.
+                                        Entre ellos no hay lugar para la compasión.
+                                        Creen realmente que es necesario aferrar el
+                                        filo de la iluminación (y sufrir las heridas)
+                                        antes de alcanzar la verdad.<br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La senda de la Metamorfosis<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                        <article class="title flex-title">
+                            <p><span class="title-note">El mundo está compuesto por cadenas
+                                evolutivas. Los animales están por debajo de
+                                los humanos, que están debajo de los vampiros,
+                                que a su vez están debajo de algo. Los
+                                metafísicos y arcanos miembros del clan
+                                Tzimisce siguen esta Senda, que se concentra
+                                en definir y alcanzar un estado del ser más allá
+                                de la maldición del vampirismo. Recurriendo a
+                                la utilización de la Disciplina transformadora de
+                                la Vicisitud, los Tzimisce creen tener el
+                                potencial para trascender las restricciones de la
+                                carne.<br></span></p>
+                                <h3 class="title flex-title"><span class="title-note"><br>La Senda de la Noche<br></span></h3>
+                                <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                                <p><span class="title-note">
+                                    Los vampiros que siguen la Senda de la
+                                    Noche aceptan totalmente su condena. Creen
+                                    que, como vampiros, su obligación es actuar
+                                    como agentes de la perdición. La no vida no
+                                    significa nada sin dolor. Esta Senda la practican
+                                    especialmente los vampiros del clan Lasombra,
+                                    que mortifican gustosos sus propias almas para
+                                    cometer todo tipo de atrocidades. Sus
+                                    seguidores son más que meros sádicos, ya que
+                                    son totalmente sinceros en sus creencias. Los
+                                    que reciben la maldición de Caín están
+                                    obligados a cobrarse venganza en los Hijos de
+                                    Seth.<br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La Senda de la Paradoja<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                    <article class="title flex-title">
+                        <p><span class="title-note">La Senda de la Paradoja, inspirada por
+                            el hinduismo y practicada casi en exclusiva por
+                            los vampiros del clan Ravnos, estudia la
+                            obligación kármica de los Vampiros de
+                            continuar el gran ciclo de las edades. Según la
+                            senda de la Paradoja, los Vampiros se
+                            encuentran eterna mente atrapados fuera del
+                            ciclo ilusorio del universo. Mientras casi todos
+                            los demás seres se reencarnan mediante una
+                            perpetua participación en el ciclo del
+                            renacimiento, los vampiros han quedado al
+                            margen de este proceso. Los Ravnos ven su
+                            estado como una maldición, igual que muchos
+                            otros Vampiros, pero lo demás, no suelen
+                            advertir la necesidad de regresar al ciclo. Los
+                            Ravnos están convencidos de ello, y para
+                            allanar su vuelta no hay más remedio que
+                            destruirlos.<br></span></p>   
+                    </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La Senda del Poder y la voz Interior<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                    <article class="title flex-title">
+                        <p><span class="title-note">
+                        Cuando se recibe la vida eterna, un
+                        poder increíble y un apetito inhumano, la única
+                        existencia verdadera es la de un gobernante
+                        inmortal, o eso creen los seguidores de la Senda
+                        del Poder y la Voz Interior. No tiene sentido
+                        llorar por la humanidad perdida o encerrarse
+                        para estudiar saberes arcanos. Los vampiros
+                        carecen de honor y de compasión, y su papel es
+                        el de amo.<br></span></p> 
+                            </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>La Senda de la Sangre<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                    <article class="title flex-title">
+                        <p><span class="title-note">Esta Senda es practicada casi en
+                            exclusiva por los asesinos diabolistas del clan
+                            Assamita. El principio fundador de la Senda
+                            explica que los Hijos de Caín son fallos
+                            corruptos que sólo sirven principalmente para
+                            acercar a la estirpe de Haqim (el nombre
+                            Assamita para el fundador de su clan) al “Uno”,
+                            un estado de trascendencia mística. Haqim
+                            instruye a sus hijos para que ataquen a los
+                            demás chiquillos de Khayyin, bebiendo su
+                            sangre en un esfuerzo por destruir la corrupción
+                            que provocan en el mundo.
+                            <br></span></p>
+                        </article>
+                        <h3 class="title flex-title"><span class="title-note"><br>La Senda de Tifon<br></span></h3>
+                    <h2 class="title flex-title"><span class="title-note"><br>Creencias</br></span></h2>
+                    <article class="title flex-title">
+                        <p><span class="title-note">Los vampiros que siguen la Senda de
+                            Tifón tienen un objetivo realmente siniestro en
+                            mente: buscan la resurrección de su padre y
+                            maestro, Set. Aunque casi todos los Vampiros
+                            ven a esta criatura como a un miembro mítico
+                            de la Tercera Generación, la doctrina de los
+                            Teofidianos enseña que Set era, en realidad, un
+                            ser divino incluso antes del Abrazo. De hecho
+                            ven a Caín como a un ser inferior a Set, del que
+                            aseguran que permitió al Primer Vampiro que le
+                            Abrazara para poder emplear a sus
+                            descendientes para golpear a los dioses rivales,
+                            como Gaia y Lilith. De este modo Set, y a
+                            través de él los propios Setitas, ocupan su lugar
+                            en el universo como agentes de la entropía que
+                            destruye lo viejo para que lo nuevo pueda
+                            florecer.
+                            <br></span></p>
+                        </article>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <address>
+            " Autor:"
+            <br>
+            "Email:"
+        </address>
+    </div>
+    <script>
+        const btnScrollToTop =document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener("click", function (){
+            
+            window.scrollTo({
+                top:0,
+                left:0,
+                behavior:"smooth"
+            });
+        });
+    </script>
+
+ </body>
+</html>
