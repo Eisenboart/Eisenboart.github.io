@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../Styles/mediaConfig.css">
+    <link rel="stylesheet" href="../Styles/Config.css">
+    <link rel="stylesheet" href="../Styles/Burger.css">
+    <link rel="stylesheet" href="../Styles/Container.css">
+    <link rel="stylesheet" href="../Styles/ScrollToTop.css">
+
+    <script src="https://kit.fontawesome.com/1027248462.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+           <div>
+               <div>
+                   <ul>
+                    <!-- El link para que funcione en la pagina Github Page tiene que respetar este formato:-->
+                    <!-- Si necesitamos cambiar a una carpeta hija usamos: "CarpetaObjetivo\CapN.html" -->
+                    <!-- Si no necesitamos cambiar de carpeta: "CapN.html"-->
+                    <!-- Si necesitamos cambiar a una carpeta anterior: "../CapN.html"-->
+                    <li>Indice:</li>                                
+                    <li><a href="Cap0.html">Introduccion: Rol en vivo</a></li>
+                    <li><a href="Cap1.html">Capitulo I: Ambientacion</a></li>
+                    <li><a href="Cap2.html">Capitulo II: Mitologia</a></li>
+                    <li><a href="Cap3.html">Capitulo III: Las Facciones</a></li>
+                    <li><a href="Cap4.html">Capitulo IV: Los Clanes</a></li>
+                    <li><a href="Cap5.html">Capitulo V: Cracion de Personaje</a></li>
+                    <li><a href="Cap6.html">Capitulo VI: Disciplinas</a></li>
+                    <li><a href="Cap7.html">Capitulo VII: Trasfondos</a></li>
+                    <li><a href="Cap8.html">Capitulo VIII: Reglas</a></li>
+                    <li><a href="Cap9.html">Capitulo IX: Sistemas & Drama</a></li>
+                    <li><a href="Ape1.html">Apendice: Sendas de Iluminacion</a></li>
+                    <li><a href="Ape2.html">Apendice: Meritos & Defectos</a></li>
+                   </ul>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="header">
+       <img src="../Img/logo.png" alt="LOGO">
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+                <!-- El link para que funcione en la pagina Github Page tiene que respetar este formato:-->
+                <!-- Si necesitamos cambiar a una carpeta hija usamos: "CarpetaObjetivo\CapN.html" -->
+                <!-- Si no necesitamos cambiar de carpeta: "CapN.html"-->
+                <!-- Si necesitamos cambiar a una carpeta anterior: "../CapN.html"-->
+            <a href="../index.html">Home Page</a>
+            <a href>Que es el juego</a>
+            <a href="../formu\formulario.html">Contacto</a>
+            <a href>Noticias y novedades</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="main">
+            <button id="btnScrollToTop">
+                <i class="fa-regular fa-circle-up fa-4x"></i>
+            </button>
+                    <h2 class="title flex-title"><span class="title-main">Meritos y Defectos<br></span></h2>
+                        <article class="title flex-title">   
+                                <p><span class="title-note">Los méritos y defectos son
+                                    características únicas (y opcionales) que
+                                    pueden poseer los personajes y que le
+                                    facilitan o dificultan algún aspecto
+                                    particular del juego. Cada Mérito cuesta
+                                    su puntuación en Puntos. Cada personaje
+                                    comienza con 0 Puntos para gastar en
+                                    Méritos. El máximo número que se puede
+                                    gastar en Méritos es igual a 7. La forma
+                                    de ganar Puntos para comprar méritos es
+                                    adquiriendo defectos. Estos puntos así
+                                    ganados sólo se podrán utilizar en la
+                                    compra de Méritos únicamente. El
+                                    jugador podrá adquirir hasta un total de 7
+                                    puntos de defectos.</span><br></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Meritos Generales<br></span></h3>
+                        <article class="title flex-title">
+                            <p><span class="title-note">- Antiguo Ghoul (Coste 2):
+                                El jugador comienza el juego con
+                                la habilidad de “Ocultismo” y una
+                                especialidad de “Sociedad Vampírica”.
+                                Sólo se podrá adquirir este mérito en la
+                                creación de personaje.</p>
+                                <p>- Aura engañosa (Coste 1):
+                                Ante cualquier intento de leer el
+                                aura del personaje, ésta se presentara
+                                como el aura de un ser humano. Si ha
+                                cometido diablerie las espirales negras
+                                serán visibles. Sólo puede ser
+                                seleccionado durante la creación de
+                                personaje.</p>
+                                <p> - Balance acrobático (Coste 1):
+                                Otorga un +3 para defenderse de
+                                un intento de derribo.</p>
+                                <p>- Diablerie oculta (Coste 3):
+                                El aura no muestra jamás rastros
+                                de diablerie. Sólo puede ser seleccionado
+                                durante la creación de personaje. Los
+                                Assamitas no pueden adquirir este mérito.</p>
+                                <p> - Digestión Eficaz (Coste 2):
+                                Por cada dos Puntos de Sangre
+                                que se consuma de una víctima se suma
+                                un punto extra. Este Mérito no te permite
+                                superar tu máximo de Reserva de Sangre.</p>
+                                <p> - Disciplina de Clan (Coste 4):
+                                Permite al jugador seleccionar una
+                                disciplina cualquiera y considerarla de
+                                clan (Mientras no sean las disciplinas
+                                secretas de algún clan como
+                                Taumaturgia). Sólo puede comprarse este
+                                Mérito una vez y durante la creación de
+                                personaje. Los Caitiff o Panders no
+                                pueden adquirir este mérito.</p>
+                                <p> - Espías (Coste 3):
+                                El vampiro posee tres espías
+                                infiltrados en una secta o clan enemigo.
+                                Estos espías serán ghouls o ayudantes de
+                                otros jugadores que pueden conseguir
+                                información para el vampiro. Pero que
+                                pueden tambien sufrir un triste destino si
+                                son descubiertos. Este mérito debe ser
+                                coordinado con un DJ para decidir quién
+                                será el espía y a qué información podrá
+                                tener acceso.</p>
+                                <p> - Favores (Coste 2):
+                                El jugador comienza con personas
+                                que le deben favores. Durante tres
+                                partidas podrá pedirle al Director de
+                                Juego una carta de algún trasfondo. Una
+                                vez pedidos los tres trasfondos el favor
+                                quedará saldado y el mérito se borrará.</p>
+                                <p> - Frialdad (Coste 2):
+                                Evita el primer Frenesí por noche
+                                o cancela el primer efecto de miedo por
+                                noche. Los Brujah no pueden elegir este
+                                Mérito.</p>
+                                <p>- Generación Baja (Coste 2 o 5):
+                                Por 2 puntos, el vampiro comienza
+                                el juego con una generación más baja que
+                                la generación base para la partida. Por 5
+                                puntos serán dos generaciones menos. Un
+                                Caitiff o Pander no puede comprar este
+                                Mérito que sólo puede adquirirs durante
+                                la creación de personaje.</p>
+                                <p>- Habilidoso (Coste 2):
+                                El jugador podrá elegir dos
+                                habilidades de Cacería. En dichas
+                                habilidades, en caso de empatar el PPT se
+                                considerará que habrá ganado.</p>
+                                <p>- Invinculable (Coste 4):
+                                El vampiro es inmune a los
+                                vínculos de sangre. Los Tremeré y
+                                Caitiff/Pander no pueden adquirir este
+                                Mérito y otros personajes sólo previa
+                                autorización de un DJ. Sólo puede
+                                adquirirse durante la creación de
+                                personaje.</p>
+                                <p>- Matón (Coste 3):
+                                El jugador comienza con la
+                                habilidades Pelea y la especialidad de
+                                Desarme adquiridas. Sólo se podrá
+                                adquirir este mérito en la creación de
+                                personaje.</p>
+                                <p> - Médium (Coste 2):
+                                El personaje siente la presencia de
+                                fantasmas y espíritus. No puede verlos si
+                                no se materializan, pero sabe que están
+                                allí. Puede intentar comunicarse con ellos
+                                para pedirles algún favor o consejo.
+                                Gastando un punto de FV puede expulsar
+                                a un fantasma o exorcizar un objeto
+                                poseído. Sólo puede ser seleccionado
+                                durante la creación de personaje.</p>
+                                <p> - Mentor (Coste 3):
+                                Reduce en 1 el coste de XP de las
+                                Disciplinas de clan a la hora de
+                                comprarlas o avanzarlas. Puede enseñar 1
+                                Disciplina de otro clan a elección del
+                                jugador (revia autorización de un DJ),
+                                pero ésta debe comprarse separadamente.</p>
+                                <p> - Mordida descomunal (Coste 3):
+                                Los colmillos del vampiro son
+                                permanentes y de tamaño y cantidad
+                                desmesurado. Posee varias hileras de
+                                colmillos como si fuera un tiburón y su
+                                mandíbula puede dislocarse para ampliar
+                                el área afectada. Otorga un +2 al daño
+                                agravado de la mordida. Sólo los
+                                personajes Nosferatus pueden elegir este
+                                Mérito. Sólo se podrá adquirir este mérito
+                                en la creación de personaje.</p>
+                                <p> - Oído Fino (Coste 1):
+                                Permite escuchar una
+                                conversación a una distancia igual 10
+                                pasos que se esté hablando en susurros
+                                y/o con ruido de fondo. La disciplina
+                                Auspex duplica esta distancia. La
+                                cantidad de información obtenida de esta
+                                manera será dictaminada por un Director
+                                de juego. Se deberá avisar que se está
+                                utilizando esta habilidad para que cuente
+                                como acción.</p>
+                                <p> -Pacto Infernal (Coste 3):
+                                Este mérito debe ser autorizado
+                                por un director de juego. El vampiro ha
+                                realizado un pacto con un demonio o
+                                entidad oscura a la que le ha vendido su
+                                alma. Este pacto le ha concedido un Don
+                                Infernal. El jugador debe elegir uno de los
+                                Dones siguientes. Cada uno de éstos tiene
+                                un efecto menor y otro mayor. El jugador
+                                con el Don accede a ambos efectos.
+                                El estigma en el aura de quienes
+                                han pactado con criaturas de este tipo no
+                                es visible todo el tiempo, sino que sólo se
+                                manifiesta cuando el jugador está
+                                utilizando el poder. En el caso del efecto
+                                mayor, esta aura es perfectamente visible
+                                por cualquiera, incluso sin el uso de
+                                Auspex.
+                                Toda arma o poder diseñado para
+                                afectar demonios también te afectará y,
+                                adicionalmente el demonio con el que se
+                                pactó puede pedir algún servicio el cual
+                                deberá ser realizado, o se perderá este
+                                poder hasta que el demonio quede
+                                complacido.</p>
+                                <p> -Fuego Demoníaco: Efecto menor: Tanto
+                                el fuego como las armas incendiarias
+                                inflingen daño letal en vez de agravado.
+                                Efecto mayor: El vampiro puede
+                                envolverte en un fuego verde haciendo
+                                que todos sus objetos y su equipo sean
+                                inmunes al fuego. Quienes intenten
+                                cualquier maniobra de presa, derribo o
+                                desarme por parte de acciones de pelea
+                                recibirán 3 ptos de daño. Los ataques a
+                                distancia causarán daño contundente en
+                                vez de letal. Cualquier ataque realizado
+                                con la habilidad de pelea infligirá daño
+                                agravado.</p>
+                                <p> -Regeneración Profana: Efecto menor:
+                                Cada turno sin gastar sangre regenera 1
+                                punto de daño letal o contundente. Si es
+                                daño agravado cada 3 turnos.
+                                Efecto mayor: Si el personaje muere,
+                                resucitará automáticamente con 5 puntos
+                                de vida en un estallido de llamas verdenegruzcas.
+                                Tendrá que localizar a su
+                                asesino y enviar su alma al infierno para
+                                reemplazar la suya. Mientras tanto deberá
+                                sacrificar cada partida a tres inocentes. Si
+                                falla al realizar estas acciones, el demonio
+                                con el que ha pactado vendrá a reclamar
+                                su alma para llevarlo al castigo eterno.</p>
+                                <p>  - Reputación (Coste 2):
+                                El personaje es considerado un
+                                miembro apreciado y reconocido de su
+                                Clan. Esto puede deberse a méritos
+                                propios o a un Sire aprticularmente
+                                prestigioso. Comienza el juego con un
+                                punto extra en Respeto de Clan.</p>
+                                <p> - Resistente a la Magia (Coste 3):
+                                Aquel que utilice algún poder de
+                                Taumaturgia o Magia de Magos deberá
+                                ganar una prueba de PPT contra el
+                                poseedor de este mérito. Si el jugador
+                                resistente a la magia gana o empata dicha
+                                prueba, el poder no funcionará. Este
+                                Mérito impide al vampiro aprender
+                                Taumaturgia. Sólo puede adquirirse
+                                durante la creación del personaje.</p>
+                                <p> - Suertudo (Coste 2):
+                                Permite al jugador repetir 1
+                                prueba de PPT cualquiera por noche. Sólo
+                                puede ser seleccionado durante la
+                                creación de personaje.</p>
+                                <p> - Voluntad de Hierro (Coste 2):
+                                Otorga un +1 en contra de
+                                cualquier efecto de la disciplina
+                                Dominación o poderes de otros
+                                sobrenaturales para dominar la mente.
+                                <br></span></p>   
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Meritos de Camarilla<br></span></h3>  
+                     <article class="title flex-title">
+                            <p><span class="title-note">- Arquitecto de la Torre (Coste 2):
+                                El vampiro peleó por la Camarilla
+                                durante la Revolución Anarquista y
+                                estuvo presente en la Convención de
+                                Thornes. Es considerado uno de los
+                                miembros fundadores de la Camarilla, y
+                                como tal, posee status innato. Comienza
+                                el juego con un punto extra en Respeto de
+                                Camarilla.</p>
+                                <p> - Emisario en la Camarilla (Coste 2):
+                                No todos en una convención de la
+                                Camarilla son miembros de la Secta. Este
+                                mérito representa el accionar de un
+                                vampiro no perteneciente a la Secta, que
+                                sin embargo ha realizado servicios para la
+                                misma y es respetado por sus miembros.
+                                Otorga Respeto de Camarilla 1. Sólo
+                                puede ser adquirido por vampiros que no
+                                pertenecen a la Secta.<br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Meritos Sabat<br></span></h3>
+                        <article class="title flex-title">
+                            <p><span class="title-note">- Guardián de Texto Sagrado (Coste 1):
+                                El personaje posee una copia de
+                                uno de los textos sagrados del Sabbat: El
+                                Libro de Nod, Los Fragmentos de
+                                Erciyes, Las Crónicas de Ubar, El
+                                Evangelio de Irad & Adah, El Códice de
+                                los Malditos o las Revelaciones de la
+                                Madre Oscura. Mientras posea este texto
+                                se considera que posee un nivel extra en
+                                Biblioteca, relevante al conocimiento
+                                vampírico. Adicionalmente, puede recibir
+                                el respeto de quienes veneran estos textos.</p>
+                                <p> - Miembro de la Inquisición (Coste 2):
+                                El vampiro perteneces a la
+                                organización de los Inquisidores. El
+                                grupo que busca extirpar cualquier rastro
+                                de infernalismo en el Sabbat. Otorga
+                                Respeto Inquisición 1.</p>
+                                <p> - Miembro de la Mano Negra (Coste 2):
+                                El vampiro perteneces a la
+                                organización de la Mano Negra. El grupo
+                                de elite y policía secreta dentro del
+                                Sabbat. Otorga Respeto Mano Negra 1.
+                                <br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Meritos del Clan<br></span></h3>
+                        <article class="title flex-title">
+                            <p><span class="title-note"></p><b><p>Assamita:</p></b>
+                                <p>- Ataque sorpresa (1):
+                                Cuando el assamita ataca a un
+                                enemigo que no tiene conocimiento de su
+                                presencia y se encuentra desprevenido, su
+                                primer ataque cuerpo a cuerpo aumentá
+                                su daño en 1 punto.</p>
+                                Brujah
+                                <p> - Mi presencia, mi Orden (3):
+                                Cuando otro personaje gaste
+                                fuerza de voluntad para resisir la “mirada
+                                aterradora” o la “Majestad” del Brujah, su
+                                bestia responde a esto. La fuerza pura de
+                                su ira ataca a su rival provocándole 1
+                                daño agravado que no puede reducirse de
+                                manera alguna. Este efecto de daño no
+                                desactiva “Majestad”.</p>
+                                <b><p>Gangrel</p></b>
+                                <p>- Forma de ira bestial(3):
+                                Cuando el gangrel utiliza el tercer
+                                poder de Protean para cambiar de forma
+                                puede asumir una forma hibrida, medioanimal.
+                                En esta forma, el jugador podrá
+                                hacer daño agravado de garras y dientes
+                                igual a su Fuerza +2 en acciones de pelea
+                                y obtendrá un +1 a cualquier intento de
+                                Presa o Derribo. Además su Resistencia
+                                recibirá un bono de +3. La Bestia, cegada
+                                por la sed de sangre, tomará el control y
+                                no dejará al personaje realizar acciones
+                                defensivas (bloqueos, esquivas, etc).</p>
+                                <b><p>Giovanni</p></b>
+                               <p>- Súbdito Fantasmal (3):
+                                El Giovanni posee un trasfondo de
+                                Fantasma adicional que se considerará de
+                                nivel 4 que debe ser un seguidor leal
+                                (amigo cercano, familiar, un esclavo
+                                particularmente fiel, etc.) que se negó a
+                                abandonarlo</p>
+                                <b><p>Lasombra</p></b>
+                               <p> - Caminar el abismo (3):
+                                El Lasombra es capaz de abrir un
+                                portal directo al plano de las Sombras y
+                                viajar por allí, llevando incluso
+                                acompañantes. Después de 5 turnos y
+                                gastar 1 PS por compañero de viaje
+                                (máximo 3 compañeros que deben ir
+                                voluntariamente). Una vez en este plano
+                                podrá moverse libremente sin ser visto,
+                                aunque percibiendo l realidad como un
+                                reflejo borroso. El Vampiro deberá
+                                realizar una prueba de PPT. En caso de
+                                ganar podrá volver a la realidad cuando lo
+                                desee, recibiendo cada uno de los
+                                viajeros, incluyéndolo, 1 daño
+                                contundente que no puede ser reducido ni
+                                negado. En caso de empate aparecerá tras
+                                un mínimo de 5 minutos en este plano y
+                                recibiendo 3 daños letales. Si pierde la
+                                prueba quedarán atrapados en el pano de
+                                las Sombras por al menos 20 minutos y
+                                recibiendo 3 daños agravados.</p>
+                                <b><p> Malkavian</p></b>
+                               <p> - Mente laberíntica (2):
+                                La mente del malkavian es como
+                                un laberinto para todo aquel que trate de
+                                ahondar en ella o influenciarla. Cuando
+                                intentan leer la mente (telepatía auspex 4)
+                                el vampiro podrá mentir.</p>
+                                <b><p> Nosferatu</p></b>
+                                <p>- Ventaja oculta (2):
+                                La capacidad del Nosferatu para
+                                ocultarse con Ofuscación está por encima
+                                de la media. Cuando un jugador debe
+                                hacer un duelo de PPT para verlo, el
+                                Nosferatu ganará incluso en caso de
+                                empate.</p>
+                                <b><p>Ravnos</p></b>
+                               <p> - Escapista (3):
+                                Los ravnos con este Mérito tienen
+                                la habilidad de escapar cuando nadie los
+                                esta viendo. El Ravnos debe estar sin
+                                vigilancia durante 2 minutos. El Ravnos
+                                no puede hacer esto en medio de un
+                                combate o si esta siendo victima de una
+                                presa. Tampoco podrá llevarla a cabo si la
+                                situación no presenta una salida posible,
+                                como por ejemplo si se encuentra
+                                atrapado en una habitación sin puertas ni
+                                ventanas.</p>
+                                <b><p> Seguidores de Set</p></b>
+                                <p>- Sangre adictiva (3):
+                                La sangre del Setita es como una
+                                droga para cualquiera que la haya
+                                ingerido previamente. La próxima vez
+                                que la criatura tenga la oportunidad de
+                                beber esa sangre deberá hacerlo o gastar
+                                un punto de FV para resistirse. Esto
+                                previene la abstinencia durante la
+                                proxima hora de juego. La siguiente vez
+                                dentro de la noche deberá gastar 2 FV, y
+                                una tercera vez, 3 FV. Si se resisten a
+                                tomar la sangre 3 veces consecutivas,
+                                romperá la adicción.</p>
+                                <b><p> Toreador</p></b>
+                                -La magia del artista (4):
+                                <p>El Toreador parece haber sido
+                                tocado por las musas y es parcialmente
+                                capaz de insuflar su visión del mundo a
+                                otros a traves de su Arte. Cuando esté
+                                realizando un acto creativo (ya sea
+                                bailando, cantando, pintando o cualquiera
+                                sea su área artística predilecta) podrá
+                                poner un álto a cualquier interacción
+                                social o física que ocurra en la misma
+                                habitación en la que él se encuentre.
+                                Todos los presentes se quedarán absortos
+                                observándolo. Si el Toreador dejara de
+                                realizar su arte, aunque más no sea un
+                                momento, el encanto se rompería. Al
+                                igual que si se realizase un ataque de
+                                cualquier tipo en el entorno.</p>
+                                <b><p> Tremere</p></b>
+                                - Contramagia (4):
+                                <p>El Tremere es especialmente
+                                capaz de deshacer los encantamientos y
+                                sortilegios producidos por otros
+                                compañeros del clan. El jugador puede
+                                decidir como efecto de su contramagia a
+                                un objetivo o un área en concreto para
+                                disipar efectos taumatúrgicos. Para
+                                hacerlo deberá gastar tantos PS como la
+                                diferencia entre su nivel de Taumaturgia
+                                y el del Invocador (mínimo uno). La
+                                magia se disipará al final del siguiente
+                                turno.</p>
+                                <b><p> Tzimisce</p></b>
+                               <p> - Vozhd (4):
+                                Cualquier Tzimisce puede utilizar
+                                su disciplina de Vicisitud con sus ghouls,
+                                creando a los temidos Szlachta (humanos
+                                o animales deformados por esta
+                                disciplina). Pero sólo unos pocos logran
+                                dominar este poder al punto de crear a los
+                                terroríficos Vozhd, amalgamas de dos o
+                                más ghouls, tanto humanos como
+                                animales. El personaje es capaz de unir
+                                dos fichas de Ghoul, creando un único ser
+                                viviente que comparte parte de las
+                                características de ambas criaturas
+                                originales. La criatura creada tendá las
+                                características físicas de la criatura
+                                principal mas la mitad de las de la
+                                criatura secundaria. Cuando el Tzimisce
+                                llega a nivel de Vicisitud en 5, serán 3 las
+                                criaturas que podrá unir de esta manera.
+                                Para obtener este mérito es necesario
+                                poseer Vicisitud al menos en 3.</p>
+                                <b><p> Ventrue</p></b>
+                                - Porte Real (4):
+                                <p>El Ventrue pertenece a una de las
+                                viejas líneas de sangre de reyes y reinas,
+                                puede despertar la fuerza de tu
+                                personalidad para producir grandes
+                                efectos. Una vez por partida puede activar
+                                Presencia antes incluso de la iniciativa de
+                                los jugadores envueltos. Deberá pagar el
+                                coste normal y realizar todas las pruebas
+                                que involucren el poder de Presencia
+                                activado. Este Mérito no podrá ser
+                                activado si el personaje es objetivo de un
+                                ataque por sorpresa.</p>
+                                <b><p> Caitiff</p></b>
+                                <p>- Vestigios de grandeza(3):
+                                En la sangre diluída del Caitiff
+                                aún parece haber rastros de poder. Una (y
+                                solamente una) de sus Disciplinas de clan
+                                pueden ser una Disciplina rara de un
+                                Clan. Taumaturgia y Nigromancia, dos
+                                Disciplinas que deben ser enseñadas,
+                                exceden las capacidades de este mérito.
+                                En caso de elegir una Disicplina de una
+                                Línea de Sangre, primero debe de
+                                consultarse con un Narrador.</p>
+                                <b><p> Gárgolas</p></b>
+                               <p> - Volar (1):
+                                La gárgola es capaz de volar al
+                                igual que si fuera un ave. En algunos
+                                casos las alas de las Gárgolas son
+                                puramente ornamentales, pero en el caso
+                                del personaje funcionan perfectamente
+                                permitiéndole elevarse por los cielos.</p>
+                                <b><p> Hijas de la Cacofonía</p></b>
+                                <p>- Fortissimo(5):
+                                La Hija de la Cacofonía ha
+                                alcanzado un nivel de poder fuera de lo
+                                común, si posee 1 nivel en Melpómene y
+                                además el poder de Presencia
+                                “Encantamiento” podrá afectar a
+                                cualquier número de personas que la
+                                estén escuchando, incluso aunque no
+                                tenga contacto directo con ellos.
+                                <br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Defectos<br></span></h3> 
+                    <article class="title flex-title">
+                            <p><span class="title-note">- Acomodado (Otorga 1):</p>
+                               <p> El vampiro comienza el juego con
+                                Respeto 0. No es que sea un miembro a
+                                prueba, simplemente todos piensan que
+                                no hay nadie realmente que lo avale y que
+                                en realidad está donde está por el trabajo
+                                de su Sire y no por mérito propio.</p>
+                               <p> - Adicción (Otorga 2):
+                                El vampiro sufre una tremenda
+                                adicción a una droga o veneno para los
+                                mortales. Debe elegir una de las
+                                siguientes. Este defecto puede ser
+                                escogido hasta 3 veces.</p>
+                                <b><p>Anfetamina:</p></b>
+                                <p>Perderá cualquier PPT
+                                    empatado en las tiradas de cacería, en
+                                    caso de ya tener este defecto (sabbat) su
+                                    cacería será nula durante las primeras 3
+                                    horas de juego.</p>
+                                    <b><p>Alucinogeno:</p></b>
+                                <p>Su fuerza de voluntad se
+                                    considerará 2 puntos inferior a lo que
+                                    seria originalmente durante las primeras 2
+                                    horas de juego.</p>
+                                    <b><p>Sedantes:</p></b>
+                                <p>Irá último en todos los
+                                    combates en los que se vea involucrado
+                                    durante las primeras 3 horas de juego.
+                                <p>- Alma impía (Otorga 3):
+                                    Quizás el Sire del vampiro fue
+                                    infernalista, o un antepasado humano
+                                    suyo tuvo tratos con demonios, en
+                                    cualquier caso, en su alma se manifiesta
+                                    un estigma. Siempre que utilice una
+                                    Disciplina de nivel 4 o superior, dicho
+                                    estigma se presentará en su aura
+                                    dejándolo ver como algo que no es (o
+                                    quizás si): un infernalista para quien lo
+                                    observe con Auspex. No podrá entrar a
+                                    lugares sagrados como iglesias,
+                                    monasterios, sinagogas, etc. Los poderes
+                                    como Fe Verdadera afectaran al uso de
+                                    sus disciplinas como si de poderes de
+                                    infernalista se tratasen.</p>
+                                    <p>- Amnesia (Otorga 1):
+                                    El pasado del vampiro es un
+                                    misterio para él. Su amnesia no le impide
+                                    recordar los nombres de ciudades o de
+                                    elementos o cómo realizar determinadas
+                                    actividades en las que sea un experto
+                                    (tanto habilidades como Disciplinas),
+                                    pero su pasado será un pizarrón en
+                                    blanco. Esto no significa que su pasado
+                                    pueda venir por él a cobrarse deudas
+                                    pendientes.</p>
+                                    <p>- Analfabeto (Otorga 1):
+                                    El personaje no sabe leer ni
+                                    escribir y por ende no podrá elegir las
+                                    habilidades de Leyes, Informática,
+                                    Ciencia ni Academismo.</p>
+                                   <p> - Arcaico (Otorga 2):
+                                    El personaje fue creado hace
+                                    tiempo y la tecnología moderna le resulta
+                                    extraña. No podrá elegir las habilidades
+                                    relacionadas con Informática, Leyes,
+                                    Conducir ni Pericias: Ensamblaje.</p>
+                                    <p>- Atormentado por entidad sobrenatural
+                                    (Otorga 1 a 5):
+                                    El vampiro es atormentado por
+                                    una entidad sobrenatural. La cantidad de
+                                    puntos que el jugador decida aceptar de
+                                    este defecto emula la cantidad de
+                                    Habilidades que no tendrá habilitados
+                                    para aprender jamás.</p>
+                                   <p> - Berserker (Otorga 3):
+                                    El vampiro no puede utilizar FV
+                                    para evitar el frenesí; y entrar en frenesí
+                                    ocurre en el momento de recibir más de
+                                    tres heridas en un golpe, cuando superan
+                                    la mitad de sus puntos de salud o cuando
+                                    se los humilla públicamente. Los
+                                    miembros del clan Brujah no pueden
+                                    adquirir este defecto porque es el mismo
+                                    que su debilidad de Clan.</p>
+                                    <p>- Colmillos planos (Otorga 3):
+                                    El mordisco del vampiro no hace
+                                    daño agravado ni invocará el efecto
+                                    placentero del “beso.”</p>
+                                    <p>- Compasivo (Otorga 1):
+                                    El vampiro no tolera ver sufrir a
+                                    otros e intentara evitarlo de ser posible. Si
+                                    se encuentra en una situación donde debe
+                                    ver sufrir a otros debe realizar una prueba
+                                    de PPT para no caer en Frenesí.</p>
+                                    <p>- Conexión con la tierra (Otorga 3):
+                                    Algunos vampiros sienten especial
+                                    apego por su tierra natal y han
+                                    desarrollado una especial conexión con la
+                                    misma. Siempre deben tener cerca una
+                                    cantidad de tierra de su tierra natal o del
+                                    cementerio donde le fueron hechos los
+                                    ritos de creación encima de su cuerpo. De
+                                    no poseerla perderá la utilización de una
+                                    de sus Disciplinas empezando de la
+                                    menos poderosa a la más poderosa. Los
+                                    Tzimisces no pueden adquirir este
+                                    Defecto porque es el mismo que su
+                                    debilidad de Clan.</p>
+                                    <p>- Curación Lenta (otorga 3):
+                                    El vampiro se cura al doble de
+                                    velocidad normal y le cuesta dos Puntos
+                                    de Sangre por nivel de herida contundente
+                                    o letal. La curación de heridas agravadas
+                                    no se ve afectada por este defecto.</p>
+                                    <p>- Débil de estómago (Otorga 2):
+                                    El vampiro comienza cada sesión
+                                    de juego con 3 PS menos que el resto de
+                                    los vampiros.</p>
+                                    <p>- Demencia (Otorga 2 o 4):
+                                    Por dos puntos, el personaje
+                                    tendrá un tic nervioso constante y que se
+                                    acentúa cuando se pone nervioso.
+                                    Por cuatro puntos, el jugador
+                                    deberá elegir un Trastorno de los que se
+                                    encuentran en la sección de Sistemas y
+                                    Drama. La elección del trastorno está
+                                    sujeta a aprobación del DJ. Los
+                                    Malkavian no pueden elegir este defecto
+                                    porque es el mismo que su debilidad de
+                                    Clan.</p>
+                                    <p>- Durmiendo con el Enemigo (Otorga 2):
+                                    El personaje tiene una relación
+                                    muy íntima con un miembro de la Secta
+                                    enemiga. Lo deberá proteger. Puede ser
+                                    cualquier tipo de relación (amantes,
+                                    amigos, chiquillos, etc.). Si esta relación
+                                    es descubierta la secta lo castigará con la
+                                    muerte.</p>
+                                    <p>- Endeble y manipulable (Otorga 4):
+                                    El vampiro posee una voluntad
+                                    muy débil. Se considera que su Atributo
+                                    de Fuerza de Voluntad es siempre 1
+                                    menor a su puntuación actual. Además no
+                                    podrá usar FV para anular efectos de
+                                    Presencia ni para liberarse del Beso. Las
+                                    gárgolas no pueden adquirir este defecto
+                                    porque es el mismo que su debilidad de
+                                    Clan.</p>
+                                    <p>- Enemigo (Otorga 2 o 6):
+                                    El vampiro tiene un enemigo en la
+                                    Estirpe. Por 2 Puntos, el defecto funciona
+                                    como el de Sire Resentido, salvo que será
+                                    otro Jugador el encargado de esparcir
+                                    rumores en contra del personaje. Por 6
+                                    puntos al Enemigo no le alcanzará con
+                                    esto y buscará la Muerte Definitiva del
+                                    vampiro.</p>
+                                    <p>- Enemistad de un Clan/ Manada (Otorga
+                                    6):
+                                    El personaje se ha ganado por
+                                    alguna razón la enemistad de un Clan o
+                                    Manada. Este clan o manada deberán
+                                    otorgar la muerte definitiva al vampiro.
+                                    Este defecto se aplica dentro de la misma
+                                    secta, es decir que un jugador Camarilla
+                                    no podrá tener una enemistad con una
+                                    Manada Sabbat.</p>
+                                    <p>- Fobia (Otorga 1):
+                                    El vampiro siente fobia hacia algo.
+                                    Frente a la fuente de su terror la bestia
+                                    sale a flote y trata de controlar al
+                                    vampiro. El vampiro deberá ganar una
+                                    prueba de PPT contra un DJ o entrar en
+                                    Frenesí.</p>
+                                    <p>- Foto sensible (Otorga 3):
+                                    Los daños agravados originados
+                                    por fuego hacen un daño extra al
+                                    vampiro, y cualquier fuente de luz
+                                    repentina y fuerte hace que quede ciego
+                                    durante 10 turnos (o una escena, si ocurre
+                                    en un contexto social). Los Seguidores de
+                                    Set no pueden adquirir este Defecto
+                                    porque es el mismo que su debilidad de
+                                    Clan.</p>
+                                    <p>- Generación alta (Otorga 2, 3 o 4):
+                                    El vampiro comienza el juego con
+                                    una generación uno, dos o tres niveles
+                                    más alta que el resto de los jugadores
+                                    (Dependiendo de los puntos otorgados
+                                    por el defecto). Un miembro del Viejo
+                                    Clan Tzimisce o Lasombra Antitribu no
+                                    pueden adquirir este defecto.</p>
+                                    <p>- Herida permanente (Otorga 2):
+                                    El vampiro comienza todas las
+                                    noches con 3 Niveles de Salud de Daño.
+                                    Puede curarlo utilizando sangre.</p>
+                                    <p>- Inepto (Otorga 3):
+                                    Una de las Disciplinas de clan del
+                                    personaje es completamente extraña para
+                                    el y nunca logró familiarizarte con ella.
+                                    Para aprender dicha disciplina deberá
+                                    gastar puntos como si fuese fuera de clan
+                                    y no podrá poseerla durante la creación de
+                                    personaje.</p>
+                                    <p>- Maldición (Otorga 1 a 5):
+                                    Aquí hay algunos ejemplos de
+                                    maldiciones para utilizar como guía. Los
+                                    jugadores pueden, con el buen visto del
+                                    DJ crear nuevas y distintas maldiciones:
+                                    1) Cuando leen tu aura, además
+                                    verán tu naturaleza y los pecados de tu
+                                    Senda.
+                                    2) Posees la debilidad de los
+                                    Tzimisces.
+                                    3) Las armas de fuego y los
+                                    electrodomésticos y ordenadores o
+                                    teléfonos celulares no funcionan
+                                    en las manos del vampiro.
+                                    4) Los símbolos religiosos te
+                                    hacen un nivel de Daño Agravado
+                                    al contacto sin posibilidad de
+                                    resistirlo con Fortaleza. No puedes
+                                    decir el nombre de Dios o entrar
+                                    en instituciones religiosas.
+                                    5) Tres veces durante la sesión
+                                    perderás una tirada crítica de PPT.
+                                    El Director de juego así lo
+                                    decidirá. Si no recuerdas al
+                                    Director de juego esta Maldición
+                                    no recibirás puntos de XP en esa
+                                    partida.</p>
+                                    <p> - Monstruo (Otorga 3):
+                                    La apariencia del vampiro es
+                                    horrible, pudiendo confundirse con un
+                                    Nosferatu. Éstos no pueden adquirir este
+                                    defecto porque es el mismo que su
+                                    debilidad de Clan..</p>
+                                    <p> - Miembro a prueba (Otorga 1):
+                                    El vampiro era miembro de una
+                                    Secta o Clan enemigo. Ahora ha
+                                    cambiado de bando. El vampiro deberá
+                                    ganar el sufuciente Respeto de los
+                                    miembros de la Secta a la que quiere
+                                    pertenecer ahora. En el momento en que
+                                    tiene puntos de Respeto temporales
+                                    suficientes para obtener 1 Punto
+                                    permanente, debe lograr que una
+                                    autoridad de la Secta lo reconozca. En
+                                    este momento este defecto se borrará. Sin
+                                    embargo hasta que esto suceda, el
+                                    vampiro no es un miembro completo de
+                                    la Secta y no puede escudarse en sus
+                                    reglas</p>
+                                    <p> - Mudo/ Ciego (Otorga 4):
+                                    El vampiro es mudo o ciego. El
+                                    jugador deberá traer alguna forma de
+                                    eliminar ese sentido de su personaje
+                                    mientras esté jugando (una venda o
+                                    antifaz cerrado).</p>
+                                    <p>  - Necrófilo (Otorga 1):
+                                    El personaje está obsesionado con
+                                    los muertos o simplemente no puede
+                                    resistir su compañía. Deberá pasar 30
+                                    minutos en compañía de un cadáver o de
+                                    una parte del mismo cada noche. De no
+                                    cumplir con esto, sufrirá -1 a su FV de
+                                    voluntad hasta que hayas tenido
+                                    “compañía.”</p>
+                                    <p> - Negación a lo sobrenatural (Otorga 2):
+                                    El vampiro sólo puede adquirir la
+                                    habilidad de “Ocultismo” y sus
+                                    Especialidades pagando el triple de su
+                                    coste.</p>
+                                    <p> - Niño (Otorga 2):
+                                    Los atributos del personaje no
+                                    pueden superar 2 en fuerza y resistencia
+                                    en la creación de personaje. Su apariencia
+                                    será de un niño.</p>
+                                    <p> - Presa de condenación (Otorga 1):
+                                    El beso del vampiro no tiene
+                                    éxtasis. Los miembros del Clan Giovanni
+                                    no pueden tomar este defecto porque es el
+                                    mismo que su debilidad de Clan.</p>
+                                    <p> - Profeta de la Gehenna (Otorga 2):
+                                    El personaje es aquejado por
+                                    terribles visiones apocalípticas que se
+                                    mezclan con su propia percepción de la
+                                    realidad. El personaje deberá gastar un
+                                    duelo de PPT con el DJ. Si pierde deberá
+                                    gastar FV para poder ser funcional esa
+                                    noche.</p>
+                                    <p> - Reflejos lentos (Otorga 3):
+                                    Siempre se considerará que el
+                                    personaje está desprevenido cuando sea
+                                    atacado.</p>
+                                    <p> - Restricción de movimiento (Otorga 2 o
+                                    4):
+                                    El vampiro es cojo (Si otorga 2) y
+                                    no podrá usar la acción de Celeridad para
+                                    moverse, además de no poder correr. Por
+                                    más que trate de escapar siempre lo
+                                    podrán alcanzar. Con el defecto de 3
+                                    Puntos; el vampiro estará paralizado de la
+                                    cintura hacia abajo y deberá utilizar una
+                                    silla de ruedas o similar.</p>
+                                    <p>- Sangre débil (Otorga 5):
+                                    Todos los costes de Puntos de
+                                    Sangre se duplican. Además el vampiro
+                                    no podrá crear vínculos de sangre ni
+                                    progenie.</p>
+                                    <p>  - Sangre putrefacta (Otorga 4):
+                                    La sangre del vampiro está
+                                    corrupta y estancada, cada vez que utilice
+                                    sangre para la activación de cualquier
+                                    Disciplina sufrirá 1 punto de daño letal
+                                    que no podrá ser absorbido. La sangre
+                                    gastada para curar heridas o aumentar
+                                    atributos no activa este defecto.</p>
+                                    <p>- Sibarita (Otorga 3):
+                                    El jugador deberá elegir qué tipo
+                                    de sangre es el único que puede consumir.
+                                    Si un vampiro con esta maldición se
+                                    queda sin sangre no podrá usar una carta
+                                    de Rebaño cualquiera, sino que deberá
+                                    además sacrificar una de Recursos,
+                                    representando el tiempo y dinero
+                                    invertido en la obtención de esa sangre
+                                    particular. Los Ventrue no pueden
+                                    adquirir este defecto porque es el mismo
+                                    que su debilidad de Clan.</p>
+                                    <p> - Sire resentido (Otorga 1):
+                                    El Sire del vampiro lo odia por
+                                    algún motivo y busca socavarlo. Al
+                                    comenzar el juego el jugador y el DJ
+                                    deben hacer una prueba de PPT. Si el DJ
+                                    gana, esa noche hará correr un rumor
+                                    entre los vampiros en contra del
+                                    personaje.</p>
+                                    <p> - Tartamudo (Otorga 1):
+                                    El jugador deberá tartamudear
+                                    cada vez que intenta hablar durante toda
+                                    la sesión de juego.</p>
+                                    <p> - Vinculado (Otorga 5):
+                                    El vampiro comienza con un
+                                    vínculo en 3 con un PJ a elección del DJ.
+                                    Sólo ese PJ y el jugador sabrán del
+                                    Vínculo de Sangre.</p>
+                                    <p> - Vulnerable a la Plata (Otorga 2):
+                                    El vampiro es alérgico a la plata
+                                    como un hombre lobo. Si es dañado con
+                                    armas o balas de plata entonces el daño se
+                                    considera agravado y sólo puede resistirse
+                                    con Fortaleza.
+                                <br></span></p>
+                        </article>
+                    <h3 class="title flex-title"><span class="title-note"><br>Defectos de Camarilla<br></span></h3>
+                        <article class="title flex-title">
+                            <p><span class="title-note">
+                                - Acusado de Herejía (Otorga 2):</p>
+                                <p>El vampiro fue acusado de herejía
+                                en el pasado y se le permitió sobrevivir.
+                                Puede haber sido el propietario de libros
+                                prohibidos, ayudado a un proscrito o
+                                haber compartido información sobre la
+                                Golconda. Por este error, su nombre
+                                figura en la lista de individuos peligrosos
+                                y es observados por agentes de la Secta.
+                                Se considera que tiene un punto de
+                                Respeto Camarilla Temporal menos del
+                                que realmente tiene (poseyendo una
+                                tarjeta menos de las que debería).</p>
+                               <p> - Diablerie perdonada (Otorga 1):
+                                El vampiro o bien cometió una
+                                Diablerie durante una Caza de Sangre o lo
+                                hizo antes de la formación de la
+                                Camarilla. Si bien no puede ser
+                                públicamente castigado por esta pasada
+                                indiscreción, le ha hecho ganar enemigos
+                                y existen muchos antiguos que
+                                disfrutarían verlo caer. El personaje un
+                                salvoconducto por su crimen firmado por
+                                un Príncipe o Justicar que impide que lo
+                                acusen o procesen si ven su aura. Pero si
+                                acaso perdiese dicho papel, podría encontrarse en problemas.<br></span></p>
+                    <h3 class="title flex-title"><span class="title-note"><br>Defectos Sabbat<br></span></h3>
+                                <article class="title flex-title">
+                                    <p><span class="title-note">
+                                        <p>- Antiguo de la Espada de Caín (Otorga 3):
+                                        Independeientemente de la
+                                        Geeraciçon del personaje, ha sido
+                                        miembro del Sabbat por al menos varios
+                                        siglos. Si bien el vampiro puede contar
+                                        con toda la fidelidad de su manada, el
+                                        resto del Sabbat lo ve mças como uno de
+                                        los antiguos a los que luchan que un
+                                        miembro de su secta. Muchos buscarçan
+                                        desafiarlo o desacreditarlo y habrça
+                                        incluso quieres ansçien su sangre.</p>
+                                        <p> - Foco de desconfianza (Otorga 1):
+                                        Por algún hecho de su pasado, la
+                                        Mano Ngra o la Inquisición tienen
+                                        motivos para sospechar del personaje.
+                                        Como parte de sus deberes se ocupan de
+                                        amenazarlo, esparcir sus sospechas sobre
+                                        el y hacerle la vida difícil. Por este
+                                        motivo, se considera que tiene un punto
+                                        de Respeto Temporal menos del que
+                                        realmente tiene (poseyendo una tarjeta
+                                        menos de las que debería).<br></span></p>
+                        </article>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <address>
+            " Autor:Matias Olivera y Rodrigo Eisenboart"
+            <br>
+            "Email:o_maty@yahoo.com.ar"
+        </address>
+    </div>
+    <script>
+        const btnScrollToTop =document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener("click", function (){
+            
+            window.scrollTo({
+                top:0,
+                left:0,
+                behavior:"smooth"
+            });
+        });
+    </script>
+
+ </body>
+</html>
