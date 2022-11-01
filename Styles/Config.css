@@ -1,11 +1,11 @@
 @font-face {
-    src: url(fonts/Cathedral.ttf);
+    src: url(../fonts/Cathedral.ttf);
     font-family: Cat;
   }
 
 @font-face {
 font-family: Grave;
-src: url(fonts/Gravedigger.ttf);
+src: url(../fonts/Gravedigger.ttf);
 }
 
 :root
@@ -83,3 +83,42 @@ justify-content: center;
  padding:20px;
 }
 
+.titulo1
+{
+    font-family: Grave, Times, serif;
+    color: black;   
+    line-height: 2;
+    font-size: 2.7em;
+    text-decoration: underline;
+}
+
+.titulo2
+{
+    font-family: 'Grave';
+    color: black;
+    line-height: 2;
+    font-size: 2.2em;
+}
+.titulo3
+{
+    font-family: 'Grave';
+    color: black;
+    line-height: 2;
+    font-size: 1.7em;
+    
+}
+.titulo4
+{
+    font-family: 'Grave';
+    color: black;
+    line-height: 2;
+    font-size: 1.5em;
+}
+.titulo5
+{
+  font-family: sans-serif;
+    color: black;
+    line-height: 2;
+    font-size: 1em;
+    text-decoration: underline;
+}
